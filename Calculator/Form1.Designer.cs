@@ -1,6 +1,6 @@
 ﻿namespace Calculator
 {
-    partial class Calculator
+    partial class Form1
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -77,9 +77,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(57, 62);
+            this.textBox1.Location = new System.Drawing.Point(20, 62);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(720, 25);
+            this.textBox1.Size = new System.Drawing.Size(808, 52);
             this.textBox1.TabIndex = 3;
             // 
             // Division
@@ -389,7 +390,7 @@
             this.button35.Text = "x!";
             this.button35.UseVisualStyleBackColor = true;
             // 
-            // Calculator
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -430,7 +431,7 @@
             this.Controls.Add(this.Division);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.AC);
-            this.Name = "Calculator";
+            this.Name = "Form1";
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
