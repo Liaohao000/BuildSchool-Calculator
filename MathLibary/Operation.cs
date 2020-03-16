@@ -9,7 +9,7 @@ namespace MathLibary
 {
     public class Operation
     {
-        public Math Target { get; set; }
+        public MyClass Target { get; set; }
 
         public int MathAdd()
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MathLibary
 {
-    public class Math
+    public class MyClass
     {
         public int X { get; set; }
         public int Y { get; set; }
