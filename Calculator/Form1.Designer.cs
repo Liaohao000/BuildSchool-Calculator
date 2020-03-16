@@ -1,6 +1,6 @@
 ﻿namespace Calculator
 {
-    partial class Calculator
+    partial class Form1
     {
         /// <summary>
         /// 設計工具所需的變數。
@@ -77,9 +77,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(57, 62);
+            this.textBox1.Location = new System.Drawing.Point(20, 62);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(720, 25);
+            this.textBox1.Size = new System.Drawing.Size(808, 48);
             this.textBox1.TabIndex = 3;
             // 
             // button2
@@ -205,7 +206,7 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(109, 42);
             this.button15.TabIndex = 17;
-            this.button15.Text = "=";
+            this.button15.Text = ".";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // button16
@@ -250,7 +251,7 @@
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(109, 42);
             this.button20.TabIndex = 22;
-            this.button20.Text = "=";
+            this.button20.Text = "0";
             this.button20.UseVisualStyleBackColor = true;
             // 
             // button21
@@ -388,7 +389,7 @@
             this.button35.Text = "x!";
             this.button35.UseVisualStyleBackColor = true;
             // 
-            // Calculator
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -429,7 +430,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
-            this.Name = "Calculator";
+            this.Name = "Form1";
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
