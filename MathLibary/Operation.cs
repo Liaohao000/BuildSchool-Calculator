@@ -28,5 +28,6 @@ namespace MathLibary
         {
             return Target.X / Target.Y;
         }
+        
     }
 }
